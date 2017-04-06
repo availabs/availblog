@@ -32,6 +32,7 @@
 @import './imports/_images';
 @import './imports/_background-size';
 @import './imports/_background-position';
+@import './imports/_bootstrap.min';
 @import './imports/_outlines';
 @import './imports/_borders';
 @import './imports/_border-radius';
@@ -55,6 +56,7 @@
 @import './imports/_widths';
 @import './imports/_overflow';
 @import './imports/_position';
+@import './imports/_parralax';
 @import './imports/_opacity';
 @import './imports/_spacing';
 @import './imports/_text-decoration';
