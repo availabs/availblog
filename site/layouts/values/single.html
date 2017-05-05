@@ -1,10 +1,13 @@
 {{ partial "head" . }}
-{{ partial "nav" . }}
-{{ partial "jumbotron" (dict "imageUrl" "/img/about/jumbotron.jpg" "title" "Values") }}
+<!--{{ partial "nav" . }}-->
+{{ partial "about_one" . }}
+{{ partial "jumbotron" (dict "imageUrl" "/img/about/windfarm2.jpg"  "text" "In the last half-decade, innovations in technology and data storage have led to the generation of an estimated 90% of all the data ever produced. ") }}
 
+{{ partial "about_two" (dict "title" "Albany Visualization and Informatics Labs" "text_one" "AVAIL is the premier data science engineering group within the State University of New York at Albany. AVAIL is on a mission to empower a new generation of students to assimilate computer science knowledge and subject-matter expertise in the fields of data science and analytics. In doing so, AVAIL is formulating innovative solutions for private business and government. " "text_two" "The focus of AVAIL is on pioneering web-based solutions to real life problems. Dr. Catherine Lawson, AVAIL Director, and her team have created tools to support evidence based decision making in a number of practical fields including transportation, demography, meteorology, and entrepreneurial economics." "text_three" "AVAIL’s web-applications are designed to be user-friendly, visually immersive and highly responsive. A common statement amongst data science groups is “What question are you trying to answer?” The analysis and visualization tools developed by AVAIL provide the framework to focus and direct researchers to relevant and significant data." )}}
 <div class="mw7 center ph3 pt4">
 
-  {{ partial "media-block" (dict "heading" "Shade-grown coffee" "text" "Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species." "imageUrl" "/img/about/shade-grown.jpg") }}
+
+
 
   {{ partial "media-block-reverse" (dict "heading" "Single origin" "text" "Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available." "imageUrl" "/img/about/single-origin.jpg") }}
 
