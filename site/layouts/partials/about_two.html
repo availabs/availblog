@@ -1,11 +1,16 @@
 		<section class="text-block">
 			<div class="light-bg">
 				<div class="container">
-					<h2 class="with-border">{{.title}}</h2>
+					<h2 class={{.line_or_no}}>{{.title}}</h2>
+					<h3 style ="color:blue">{{.subtitle}}</h3>
+					<div style = "float:left;">
+		                <img src= {{ .imageUrl}} class = "img-responsive thumbnail3" >
+	                </div>
 					<div class="section clearfix ">
 						<h5 style = "font-spacing:1em;">{{.text_one}} </h5>
 						<h5>{{.text_two}}</h5>
 						<h5>{{.text_three}} </h5>
+						<h5>{{.text_four}} </h5>
 					</div>
 				</div>
 			</div>
