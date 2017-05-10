@@ -1,32 +1,46 @@
 {{ partial "head" . }}
-{{ partial "nav" . }}
+<!--{{ partial "nav" . }}-->
+{{ partial "about_one" . }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+{{ partial "about_three" (dict "display_view" "bottom-parallax large-view" "imageUrl" "/img/products/pictures/rooftop1.jpg" "text" "AVAIL  specializes in Geographic, Economic and Transportation Planning Our Data Science Techniques are applicable to a wide range of businesses and disciplines. " ) }}
 
-{{ partial "4-up" .Params.intro }}
+{{ partial "about_five" ( dict "color" "lime"  "imageUrl_i" "/img/products/pictures/usdot-fhwa.png" "imageUrl_ii" "/img/products/pictures/FHWA-Pooled-Fund.jpg" "title" " Federal Highways Administration Pooled Fund Study" "subtitle" "AVAIL is developing a web-based traffic data analytics data administration module as part of a Federal Highways Administration Pooled Fund Study for six state DOTs (Connecticut, Ohio, Pennsylvania, Texas, North Carolina and Michigan). The data administration module is an all inclusive transportation data visualization software suite focusing on continuous counts data, WIM and HPMS. The software will be made open-source upon completion and it is expected that the software will be used by transportation professionals around the US.  ") }}
+
+{{ partial "about_five" ( dict "color" "orange"  "imageUrl_i" "/img/products/pictures/kauffman.png" "imageUrl_ii" "/img/products/pictures/eea.jpg" "title" " Entrepreneurial Indicators Visualization Tools" "subtitle" "In December 2014, The Ewing Marion Kauffman Foundation awarded AVAIL with a grant to create an Entrepreneurial Landscape Analysis Tool that shows business climate change over time. This web-tool combines data sets with leading indicator potential overlaying information visually and geospatially - highlighting business type distributions, property value and income. " ) }}
+
+{{ partial "about_five" ( dict "color" "red"  "imageUrl_i" "/img/products/pictures/dot_logo_vector.png" "imageUrl_ii" "/img/products/pictures/njtransit1.jpg" "title" " Web-Based Transit Demand Modelling and GTFS Editing" "subtitle" "In June 2014, AVAIL was awarded a Project Phase II for its Bus Stop Level Transit Demand Modelling Project in order to pursue additional objectives in developing state-of-the-art microsimulation software for Transit Demand Modelling. ") }}
+
+{{ partial "about_five" ( dict "color" "blue"  "imageUrl_i" "/img/products/pictures/nys-dot_logo.png" "imageUrl_ii" "/img/products/pictures/npmrds3.jpg" "title" " NPMRDS - Traffic Congestion Performance Measurement Tool" "subtitle" "Working in coordination with New York State DOT and New York Metropolitan Planning Organizations, AVAIL is building a performance measurement dashboard based on NPMRDS.  ") }}
+
+{{ partial "about_five" ( dict "color" "green"  "imageUrl_i" "/img/products/pictures/mta-logo.png" "imageUrl_ii" "/img/products/pictures/gtfs-nyc.jpg" "title" " GTFS-R to SIRI API Development for MTA/NYSERDA" "subtitle" "AVAIL was awarded a grant by the Metropolitan Transit Authority (MTA) and the New York State Energy Research and Development Authority (NYSERDA) to create an Application Programming Interface (API) that is capable of converting MTA’s Subway system data, GTFS Realtime, on the fly into SIRI, the format used to publish their bus data.") }}
+<!--{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}-->
+
+<!--{{ partial "4-up" .Params.intro }}-->
 
 
-{{ with .Params.main }}
-<div class="mw7 center">
-  <div class="mw6 ph3 mb3">
-    <h3 class="f3 b lh-title mb2">{{ .heading }}</h3>
-    <p>{{ .description }}</p>
-  </div>
-</div>
+<!--{{ with .Params.main }}-->
+<!--<div class="mw7 center">-->
+<!--  <div class="mw6 ph3 mb3">-->
+<!--    <h3 class="f3 b lh-title mb2">{{ .heading }}</h3>-->
+<!--    <p>{{ .description }}</p>-->
+<!--  </div>-->
+<!--</div>-->
 
 <!-- Image grid -->
-{{ partial "image-grid" . }}
-{{ end }}
+<!--{{ partial "image-grid" . }}-->
+<!--{{ end }}-->
 
-<div class="pb4">
-  {{ range .Params.testimonials }}
-    {{ partial "blockquote" . }}
-  {{ end }}
-</div>
+<!--<div class="pb4">-->
+<!--  {{ range .Params.testimonials }}-->
+<!--    {{ partial "blockquote" . }}-->
+<!--  {{ end }}-->
+<!--</div>-->
 
 <!-- Full-width image -->
-<img src="{{ .Params.full_image }}" alt="" class="db w-100">
+<!--<img src="{{ .Params.full_image }}" alt="" class="db w-100">-->
 
-{{ partial "table" .Params.pricing }}
+<!--{{ partial "table" .Params.pricing }}-->
+
+{{ partial "about_three"  (dict  "display_view" "bottom-parallax small-view" "imageUrl" "/img/products/pictures/rooftop1.jpg" ) }}
 
 {{ partial "footer" . }}
