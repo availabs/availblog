@@ -1,10 +1,13 @@
-	<div class="{{.display_view}}" style="background-image: url('{{.imageUrl}}')">
-          <div class = "mw5" style = "text-align:left; font-size:30px; word_break:keep-all">
+    	<div class="{{.display_view}}" style="background-image: url('{{.imageUrl}}')">
+          <div class = "col-12 col-push-1" style = "text-align:left; font-size:30px; word_break:keep-all">
             {{ if .text }}
-            <p class="b f4 di lh-title mb3 white mw6 bg-primary">
+            <div class=" da-slide da-slide-current text2">
+            <h2 style = "background-color: #e9c659;" >
               {{.text}}
-            </p>
+            </h2>
+            </div>
             {{ end }}
+            
           </div>
 			<div class="black-bg">
     			<div class="padded-div container">
