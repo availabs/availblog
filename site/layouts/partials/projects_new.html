@@ -1,0 +1,12 @@
+<section class="green-bg dark">
+	<div class="container">
+      <h2 class="with-border">Projects</h2>
+      	<ul class="thumbnails">
+	      	{{ range where .Data.Pages "Type" "project" }}
+	          
+	            {{ .Render "li"}}
+	          
+	      	{{ end }}
+  		</ul>
+	</div>
+</section>

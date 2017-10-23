@@ -1,0 +1,16 @@
+<li class="col-md-4">
+  <div class="thumbnail">
+    <div class="img-wrap">  
+        <a href="{{ .Permalink }}">
+          <div class="black-bg">
+            <i class="glyphicon glyphicon-zoom-in"></i>
+          </div>
+          <img src="{{.Params.image}}" alt="" rel="gal" class="img-responsive" />
+
+        </a>
+    </div>  
+    <a href="{{ .Permalink }}">
+      <h3 class="with-border color">{{ .Title }}</h3>
+    </a>
+  </div>
+</li>

@@ -1,0 +1,7 @@
+---
+name: Paul Tomchick
+image: "/img/about/ptomchick.jpg"
+date: 2017-04-02T16:42:23.800Z
+role : Developer
+description : Paul joined AVAIL as a graduate student, pursuing a Masters in Computer Science. He joined AVAIL after graduation and has taught Databases as an adjunct at the University of Albany.
+---

@@ -1,0 +1,27 @@
+{{ partial "head" . }}
+
+{{ partial "nav" . }}
+
+
+{{ partial "paralax-title" (dict "display_view" "bottom-parallax large-view" "imageUrl" "/img/windfarm2.jpg" "text" "In the last half-decade, innovations in technology and data storage have led to the generation of an estimated 90% of all the data ever produced. " ) }}
+
+{{ partial "info-section" (dict "title" "Albany Visualization and Informatics Labs" "line_or_no" "with-border" "text_one" "AVAIL is the premier data science engineering group within the State University of New York at Albany. AVAIL is on a mission to empower a new generation of students to assimilate computer science knowledge and subject-matter expertise in the fields of data science and analytics. In doing so, AVAIL is formulating innovative solutions for private business and government. " "text_two" "The focus of AVAIL is on pioneering web-based solutions to real life problems. Dr. Catherine Lawson, AVAIL Director, and her team have created tools to support evidence based decision making in a number of practical fields including transportation, demography, meteorology, and entrepreneurial economics." "text_three" "AVAIL’s web-applications are designed to be user-friendly, visually immersive and highly responsive. A common statement amongst data science groups is “What question are you trying to answer?” The analysis and visualization tools developed by AVAIL provide the framework to focus and direct researchers to relevant and significant data." )}}
+
+
+{{ partial "paralax-title"  (dict "display_view" "bottom-parallax small-view" "imageUrl" "/img/windfarm2.jpg"  ) }}
+
+<div class="mw7 center">
+  <h2 class="with-border" >AVAIL Team</h2>
+  <ul class="flex-ns flex-wrap mhn1-ns pa3">
+    {{ range where .Site.Pages "Type" "staff" }}
+      <div class="w-33-ns ph1-ns flex">
+        {{ .Render "li"}}
+      </div>
+    {{ end }}
+  </ul>
+</div>
+
+{{ partial "paralax-title"  (dict  "display_view" "bottom-parallax small-view" "imageUrl" "/img/windfarm2.jpg" "text_one" "DATA DRIVEN DISCOVERY FELLOWSHIPS" "text_two" "Join Our Lab as a Fellow to Work on a Data Problem that Interests You") }}
+
+{{ partial "footer" . }}
+

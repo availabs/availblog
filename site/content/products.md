@@ -1,7 +1,7 @@
 ---
 title: Home
 type: products
-page: /index.html
+page: /products
 image: /img/backgrounds/traffic2.jpg
 heading: test
 description: >-

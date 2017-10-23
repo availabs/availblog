@@ -1,0 +1,16 @@
+.container>h2 {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+
+h2.with-border {
+  border-bottom: 2px solid #263439;
+  box-shadow: 0 2px 0 0 #4d5f65;
+}
+
+h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
