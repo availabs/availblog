@@ -3,10 +3,10 @@
 	<div style="background-image:url('{{ .Params.image }}');background-size: cover; width: 200px;height: 200px; border-radius: 50%; background-color: aqua; margin: 0 auto;position: relative;" >
 	</div>
 	<div class="bg-grey-1 pa2" style="margin-top:-100px;padding-top:100px">
-		<h2 class="f5 b lh-title mb1 primary">{{ .Params.name }}</h2
+		<h2 class="f6 b lh-title mb1 primary">{{ .Params.name }}</h2
 	    >
-		<p class="mid-gray lh-title mb2 b">{{ .Params.role }}</p>
-		<p class="mb0">{{ .Description }}</p>
+		<p class="mid-gray lh-title mb2 b f6">{{ .Params.role }}</p>
+		<p class="mb0 staff-description">{{ .Description }}</p>
 		<!-- <p class="link b dib black mb0">
 			<a href="{{ .Permalink }}" class="no-underline">
 			Read more →

@@ -5,7 +5,8 @@
 
 
 h2.with-border {
-  border-bottom: 2px solid #263439;
+  color: #5d5d5d;
+  border-bottom: 2px solid #5d5d5d;
   box-shadow: 0 2px 0 0 #4d5f65;
 }
 
@@ -13,4 +14,36 @@ h2 {
   font-size: 32px;
   text-transform: uppercase;
   font-weight: 300;
+}
+
+.parallax-small-title {
+	background-color:rgba(50,50,50,0.6);
+	border-radius: 2px;
+	margin-bottom: 10px; 
+}
+
+.nav-font {
+	font-size: 0.75rem; 
+}
+
+.footer-bg {
+	background-color: #5d5d5d;
+}
+
+.section-link {
+	color: #fff;
+}
+
+.info-section {
+	padding: 20px;
+	text-align: justify;
+}
+
+.staff-description {
+	text-align: justify;
+	font-size: 0.75rem;
+}
+
+.staff-section {
+	padding: 20px;
 }
