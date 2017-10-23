@@ -1,0 +1,19 @@
+{{ partial "head" . }}
+
+{{ partial "nav" . }}
+
+{{ partial "paralax-title" (dict "display_view" "bottom-parallax large-view" "imageUrl" "/img/rooftop1.jpg" "text" "AVAIL SPECIALIZES IN GEOGRAPHIC, ECONOMIC AND TRANSPORTATION PLANNING OUR DATA SCIENCE TECHNIQUES BUSINESSES AND DISCIPLINES" ) }}
+
+
+{{ range $index, $loop := (.Site.Taxonomies.categories.featuredproject) }}
+  	{{if modBool $index 2 }}
+  		{{ partial "color-info-block" .Page.Params}}
+  	{{else}}
+  		{{ partial "color-info-block-right" .Page.Params}}
+ 	{{end}}
+    
+{{ end }}
+
+{{ partial "parralax-small" (dict "imageUrl" "/img/rooftop1.jpg") }}
+
+{{ partial "footer" . }}
