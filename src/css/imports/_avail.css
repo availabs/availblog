@@ -40,10 +40,14 @@ h2 {
 }
 
 .staff-description {
-	text-align: justify;
 	font-size: 0.75rem;
 }
 
 .staff-section {
 	padding: 20px;
+}
+
+.project-link {
+	color: #5d5d5d;
+	font-size: 0.65rem;
 }
