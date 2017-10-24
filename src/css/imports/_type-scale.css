@@ -15,7 +15,7 @@
   .f3-ns { font-size: 1.5rem; }
   .f4-ns { font-size: 1.25rem;; }
   .f5-ns { font-size: var(--spacing-medium); }
-  .f6-ns { font-size: .875rem; }
+  .f6-ns { font-size: .9rem; }
 }
 
 @media (--breakpoint-medium) {

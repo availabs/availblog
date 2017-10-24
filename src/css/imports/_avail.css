@@ -23,7 +23,7 @@ h2 {
 }
 
 .nav-font {
-	font-size: 0.75rem; 
+	font-size: 0.85rem; 
 }
 
 .footer-bg {
@@ -32,6 +32,7 @@ h2 {
 
 .section-link {
 	color: #fff;
+	font-size: 0.75rem;
 }
 
 .info-section {
@@ -40,7 +41,7 @@ h2 {
 }
 
 .staff-description {
-	font-size: 0.75rem;
+	font-size: 0.8rem;
 }
 
 .staff-section {
@@ -49,5 +50,5 @@ h2 {
 
 .project-link {
 	color: #5d5d5d;
-	font-size: 0.65rem;
+	font-size: 0.85rem;
 }
