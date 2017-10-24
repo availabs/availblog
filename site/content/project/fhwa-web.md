@@ -8,5 +8,4 @@ text: AVAIL is developing a web-based traffic data analytics data administration
 image: "/img/hpms.jpg"
 color: "lime"
 categories: ["featuredproject"]
-
 ---
