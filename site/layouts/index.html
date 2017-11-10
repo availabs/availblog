@@ -4,13 +4,14 @@
 
 {{ partial "parralax-jumbotron" (dict "imageUrl" "/img/backgrounds/traffic2.jpg" "header_img" "/img/logo-big4.png") }}
 
-{{ partial "color-info-block" (dict "title" "OPEN DATA APIS" "text" "AVAIL has made a number of APIs including GeoGTFS, GTFS-R to SIRI, Business Dynamics Statistics, LEHD Quarterly Workforce Indicators, and ZIP Business Patterns." "image" "/img/qcew.jpg" "linkText" "Find more information here." "linkUrl" "/apis" "color" "red")}}
-
-{{ partial "color-info-block-right" (dict "title" "OPEN SOURCE CODE ON GITHUB" "text" "At the completion of every project, AVAIL makes all code available on Github, open source.." "image" "/img/geogtfs.jpg" "linkText" "Find more information here." "linkUrl" "/apis" "color" "blue")}}
+{{ partial "projects_new" . }}
 
 {{ partial "endorsements" . }}
 
-{{ partial "projects_new" . }}
+{{ partial "color-info-block-right" (dict "title" "OPEN SOURCE CODE ON GITHUB" "text" "At the completion of every project, AVAIL makes all code available on Github, open source.." "image" "/img/geogtfs.jpg" "linkText" "Find more information here." "linkUrl" "/apis" "color" "blue")}}
+
+{{ partial "color-info-block" (dict "title" "OPEN DATA APIS" "text" "AVAIL has made a number of APIs including GeoGTFS, GTFS-R to SIRI, Business Dynamics Statistics, LEHD Quarterly Workforce Indicators, and ZIP Business Patterns." "image" "/img/qcew.jpg" "linkText" "Find more information here." "linkUrl" "/apis" "color" "red")}}
+
 
 {{ partial "parralax-small" (dict "imageUrl" "/img/backgrounds/traffic2.jpg" "heading" "DATA DRIVEN DISCOVERY FELLOWSHIPS" "text" "Join Our Lab as a Fellow to Work on a Data Problem that Interests You") }}
 
