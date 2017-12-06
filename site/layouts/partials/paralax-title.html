@@ -2,8 +2,13 @@
           <div class = "col-12 col-push-1" style = "text-align:left; font-size:30px; word_break:keep-all">
             {{ if .text }}
             <div class=" da-slide da-slide-current text2">
-            <h2 style = "background-color: #e9c659;padding: 15px;" >
+            <h2 class='title-background'>
               {{.text}}
+            </h2>
+            <h2 class='title-space'>&nbsp
+            </h2>
+            <h2 class='title-background'>
+              {{.text2}}
             </h2>
             </div>
             {{ end }}

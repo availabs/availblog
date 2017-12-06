@@ -52,3 +52,13 @@ h2 {
 	color: #5d5d5d;
 	font-size: 0.85rem;
 }
+
+.title-background {
+	background-color: #e9c659;
+	padding: 0 5px;
+	line-height: 50px;
+}
+
+.title-space {
+	line-height: 10px;
+}
